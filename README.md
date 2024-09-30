@@ -14,21 +14,44 @@ This is a React application that allows users to dub videos by recording audio a
 
 ## Running the Application Locally
 
-1. **Clone the Repository:** `git clone https://github.com/your-username/your-repo-name.git`
-2. **Navigate to the Project Directory:** `cd your-repo-name`
+1. **Clone the Repository:** `git clone https://github.com/Mr-Vivekkumar/new-Application.git`
+2. **Navigate to the Project Directory:** `cd new-Application-main`
 3. **Install Dependencies:** `npm install`
 4. **Start the Development Server:** `npm start` The application should now be running in your browser at `http://localhost:3000`.
 
 ## Functionality Details
 
-**1. Video Player:** - Plays a selected video with controls for play/pause, seeking, and displaying the current time.
-**2. Audio Recorder:** - Records audio from the user's microphone and saves the recording as a blob associated with the current dialogue.
-**3. Dialogue Display:** - Shows the original and translated text for the current dialogue segment. Allows editing of the text and re-recording of the audio.
-**4. Timeline:** - Displays a visual timeline of dialogue segments, allowing users to navigate between them and see their distribution in the video. 
-**5. Navigation:** - "Previous" and "Next" buttons to move between dialogue segments in the table.
-**6. Dialogue Table:** - Lists all dialogue segments with their original text, translated text, and a "Play" button for each recorded audio. Includes a "Merge Audio" button to combine all recorded audio into a single downloadable WAV file.
-**7. Audio Playback Modes:** - Provides buttons to choose between playing: - "Video Audio Only" - "Recorded Audio Only" (synchronized with the video) - "Both (Mixed)" (Not yet fully implemented)
-**8. Audio Merging:** - The `mergeAudioBlobs` function in `AppContext.jsx` combines all recorded audio segments into a single WAV audio file that the user can download. 
+# Dubbing Interface Features
+
+## 1. Video Player
+- Plays a selected video with controls for play/pause, seeking, and displaying the current time.
+
+## 2. Audio Recorder
+- Records audio from the user's microphone and saves the recording as a blob associated with the current dialogue.
+
+## 3. Dialogue Display
+- Shows the original and translated text for the current dialogue segment.
+- Allows editing of the text and re-recording of the audio.
+
+## 4. Timeline
+- Displays a visual timeline of dialogue segments.
+- Allows users to navigate between them and see their distribution in the video.
+
+## 5. Navigation
+- Provides "Previous" and "Next" buttons to move between dialogue segments in the table.
+
+## 6. Dialogue Table
+- Lists all dialogue segments with their original text, translated text, and a "Play" button for each recorded audio.
+- Includes a "Merge Audio" button to combine all recorded audio into a single downloadable WAV file.
+
+## 7. Audio Playback Modes
+- Provides buttons to choose between playing:
+  - "Video Audio Only"
+  - "Recorded Audio Only" (synchronized with the video)
+  - "Both (Mixed)" (Not yet fully implemented)
+
+## 8. Audio Merging
+- The `mergeAudioBlobs` function in `AppContext.jsx` combines all recorded audio segments into a single WAV audio file that the user can download.
 
 ## Additional Notes:
 
