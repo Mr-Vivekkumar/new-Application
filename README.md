@@ -14,8 +14,8 @@ This is a React application that allows users to dub videos by recording audio a
 
 ## Running the Application Locally
 
-1. **Clone the Repository:** `git clone https://github.com/your-username/your-repo-name.git`
-2. **Navigate to the Project Directory:** `cd your-repo-name`
+1. **Clone the Repository:** `git clone https://github.com/Mr-Vivekkumar/new-Application.git`
+2. **Navigate to the Project Directory:** `cd new-Application-main`
 3. **Install Dependencies:** `npm install`
 4. **Start the Development Server:** `npm start` The application should now be running in your browser at `http://localhost:3000`.
 
